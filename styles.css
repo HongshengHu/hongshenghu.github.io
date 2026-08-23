@@ -697,6 +697,14 @@ h1 {
   line-height: 1.55;
 }
 
+.service-year {
+  display: inline-block;
+  min-width: 48px;
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
 .service-group li::marker {
   color: var(--accent);
 }
